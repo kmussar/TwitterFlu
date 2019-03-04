@@ -1,5 +1,7 @@
 # TwitterFlu
-Separating Semantic Meaning in Health-Related Tweets
+## Separating Semantic Meaning in Health-Related Tweets
+
+**Note: Work still in progress**
 
 ## Motivation:
 The CDC estimates that there have been 16,400-26,700 deaths caused by influenza in the United States in the past 5 months alone (ref). Accurately predicting when and where influenza is likely to peak can help hospitals stock up on vaccines ahead of flu season as well as prepare for the influx of patients they may receive. Flu prediction services are also of interest to the general public, city officials, epidemiologists, and pharmaceutical companies. One of the first attempts to use machine learning to predict the flu was by Google in 2009. While this project was generally considered a failure (ref), flu prediction is still being actively pursued. Notably, in 2013, the CDC sponsored a flu prediction challenge encouraging more people to work on solving this problem (ref). The following is a listing of flu prediction services/algorithms that have been developed over the years:
