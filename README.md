@@ -37,12 +37,14 @@ I collected tweets containing health-related search words and applied stemming o
 Performed NMF, LSA, and LDA. Compared topics across models and chose NMF as it gave the most interpretable topics. I chose 25 topics since it is large enough that there are more topics than search terms so I will not simply re-identify the search terms I used to get the tweets. Furthermore, the slope of the reconstruction error curve starts to get less steep at this point (although there is not a clear elbow point). 
 
 #### Clustering: 
-Compared k=2 and k=8. I chose k=2 to see if it could magically separate out sick/not sick posts, it did not. I then chose k=8 based on the elbow plot (using silhouette scores). Looking at word clouds (for quick visualization) it looks like 1 out of 8 clusters is likely to contain tweets that are not about being ill. 
+Compared k=2 and k=8. I chose k=2 to see if it could magically separate out sick/not sick posts, it did not. I then chose k=8 based on the elbow plot (using silhouette scores). Looking at word clouds (for quick visualization) it looks like 1 out of 8 clusters is likely to contain tweets that are not about being ill (see below) while the others are likely to contain tweets about being ill (representative word cloud below).
 
-That word cloud is: 
+word cloud from the cluster likely to contain tweets not about being ill:
+
 ![wordcloud](non_sick_wordcloud.jpg)
 
-Most word clouds contained multiple illness symptoms and looked like: 
+Word cloud from another representative cluster likely to contain tweets about being ill: 
+
 ![wordcloud](sick_wordcloud.jpg)
 
 ## Conclusions & Future Directions:
