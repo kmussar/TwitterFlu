@@ -11,10 +11,10 @@ The CDC estimates that there have been 16,400-26,700 deaths caused by influenza 
 * 2013	CDC Challenge 
 * 2013	University of Colorado paper 
 *	2014	Columbia University paper 
+*	2015	FluNearYou
 *	2016	Theraflu Cold & Flu Tracker
 *	2017	Flumoji
 *	2017	University of Chicago paper
-*	2015	FluNearYou
 
 Interestingly, the pharmaceutical company, GSK, is involved in two flu prediction apps: Theraflu Cold and Flu Tracker and Flumoji. It is also worth pointing out that several of these services are using Twitter data as a feature in their models (SickWeather, University of Colorado, and Theraflu Cold and Flu Tracker by proxy of Sickweather). 
 
